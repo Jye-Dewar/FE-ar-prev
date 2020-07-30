@@ -8,13 +8,35 @@ body {
 }
 
 .author {
-    font-size: x-small;
+   font-size: 10px;
+   width: 60%;
 }
 
-.share_icon {
-    max-width: 15px;
-    background-color: hsl(212, 23%, 69%);
+.author_image {
+    max-width: 40px;
+    padding: 0;
+    border-radius: 50%;
+    float: left;
+    margin-right: 5px;
+}
+
+.author span {
+    float: left;
+}
+
+.author p {
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.share_icon img{
+    background-color: hsl(210, 46%, 95%);
     color: hsl(217, 19%, 35%);
+    /* width: 20%;
+    height: auto; */
+    float: right;
+    padding: 10px;
+    border-radius: 50%;
 }
 
 .drawers {
@@ -32,7 +54,7 @@ body {
 
 .card {
     background-color: white;
-    width: 650px;
+    width: 700px;
     margin-top: 25px;
     border-radius: 5px;
     border-color: white;
