@@ -37,6 +37,7 @@ body {
     float: right;
     padding: 10px;
     border-radius: 50%;
+    margin-top: 3px;
 }
 
 .drawers {
