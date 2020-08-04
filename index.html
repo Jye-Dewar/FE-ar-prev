@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Manrope">
   <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="index.js"></script>
   
   <title>Frontend Mentor | Article preview component</title>
 
@@ -43,8 +45,8 @@
             </span>
         </div>
         <div class="col share_icon" style="padding-right: 0;">
-          <img class="share_image" src="images/icon-share.svg" alt="share_icon" onclick="myFunction()">
-          <div class="dropup-content">
+          <img id="share_icon" class="share_image" src="images/icon-share.svg" alt="share_icon" onclick="myFunction()">
+          <div id="dropup" class="dropup-content">
             <span class="share_text d-flex justify-content-between">
               S H A R E 
               <a><img class="social_image" src="/images/icon-facebook.svg"></a>
@@ -52,7 +54,7 @@
               <a><img class="social_image" src="/images/icon-pinterest.svg"></a>
             </span>
           </div>
-          <div class="arrow-down"></div>
+          <div id="arrow-down" class="arrow-down"></div>
         </div>
       </div>
     </div>
